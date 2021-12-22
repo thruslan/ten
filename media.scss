@@ -1,0 +1,976 @@
+@import "variables";
+
+
+@media (max-width: $ultraBook) {
+
+  #header {
+    .header {
+      height: 84px;
+    }
+  }
+  #hero {
+
+    .hero {
+      &__btn {
+        margin-left: 282px;
+      }
+    }
+  }
+  #home {
+    .home {
+      &__blocks {
+        width: 1068px;
+        margin-left: -85px;
+      }
+
+    }
+  }
+  #prod {
+    .prod {
+      &__buttons {
+        margin-left: 258px;
+      }
+
+      &__par {
+        margin-left: 102px;
+        padding-bottom: 40px;
+        width: 778px;
+      }
+
+      &__blocks {
+        width: 540px;
+        padding-left: 50px;
+        padding-bottom: 40px;
+
+        &--block {
+          margin: 5px 49px;
+
+          &__buttons1 {
+            margin-left: 1px;
+          }
+
+        }
+      }
+
+      &__blocks-2 {
+        width: 540px;
+        padding-left: 50px;
+        padding-bottom: 40px;
+
+        &--block {
+          margin: 5px 49px;
+
+          &__buttons1 {
+            margin-left: 1px;
+          }
+
+        }
+      }
+
+      &__blocks-3 {
+        width: 540px;
+        padding-left: 50px;
+        padding-bottom: 40px;
+
+        &--block {
+          margin: 5px 49px;
+
+          &__buttons1 {
+            margin-left: 1px;
+          }
+
+        }
+      }
+
+    }
+
+  }
+  #wrap {
+    .wrap {
+      &__block2 {
+        margin-left: 85px;
+      }
+    }
+  }
+  #slider {
+    .slider {
+
+      &__max {
+        margin-left: 68px;
+      }
+
+      &__btn {
+        margin-left: 395px;
+      }
+    }
+
+  }
+  #wat {
+    .wat {
+      &__item {
+        &--title {
+          width: 668px;
+        }
+
+        &--subtitle {
+          width: 668px;
+          padding-bottom: 20px;
+        }
+
+        &--btn {
+          width: 668px;
+        }
+      }
+    }
+  }
+  #wrapper {
+    .wrapper {
+      &__theme {
+        padding-left: 337px;
+      }
+    }
+  }
+  #reviews {
+    .reviews {
+      &__videos {
+        width: 772px;
+      }
+    }
+  }
+  #end {
+    .end {
+      &__nav {
+        padding-left: 479px;
+      }
+
+      &__item {
+        padding-left: 697px;
+      }
+    }
+  }
+}
+
+@media (max-width: $Ipad) {
+
+  #header {
+    .height {
+      &__menu {
+        min-width: 498px;
+      }
+    }
+  }
+  #hero {
+    .hero {
+      &__nav {
+        &--subtitle {
+          font-size: 12px;
+
+        }
+      }
+
+      &__theme {
+        font-size: 20px;
+      }
+
+    }
+  }
+  #slider {
+    .slider {
+      &__theme {
+        margin-left: 64px;
+      }
+    }
+
+
+  }
+
+}
+
+@media (max-width: $IpadMini) {
+  #header {
+    .header {
+      height: 30px;
+
+      &__img {
+        width: 150px;
+      }
+
+      &__nav {
+        &--ema {
+          font-size: 14px;
+        }
+
+        &--title {
+          font-size: 9px;
+        }
+      }
+
+      &__btn {
+        width: 134px;
+        height: 32px;
+
+        font-size: 10px;
+      }
+    }
+  }
+  #hero {
+    min-height: 860px;
+
+
+    .hero {
+      &__btn {
+        margin-left: 228px;
+        height: 146px;
+      }
+
+      &__blocks {
+        &--block1 {
+          width: 129px;
+
+          &__title {
+            font-size: 15px;
+          }
+
+          &__par {
+            margin-top: 22px;
+          }
+
+        }
+      }
+    }
+
+
+  }
+  #home {
+    .home {
+      &__blocks {
+        width: 811px;
+
+        margin-left: 5px;
+
+        &--img {
+          margin-left: 15px;
+          width: 100px;
+        }
+
+        .slick-next {
+          left: 373px;
+        }
+      }
+    }
+  }
+  #prod {
+    .prod {
+      &__buttons {
+        margin-left: 184px;
+      }
+
+      &__par {
+        width: 662px;
+      }
+
+      &__blocks {
+        width: 23px;
+
+        &--block {
+          margin: 5px 83px
+        }
+      }
+
+      &__blocks-2 {
+        width: 23px;
+
+        &--block {
+          margin: 5px 83px
+        }
+      }
+
+      &__blocks-3 {
+        width: 23px;
+
+        &--block {
+          margin: 5px 83px
+        }
+      }
+    }
+  }
+  #wrap {
+    .wrap {
+      &__theme {
+        margin-left: 59px;
+        padding-top: 51px;
+        font-weight: 600;
+        font-size: 32px;
+
+
+
+      }
+      &__block {
+        &--img {
+          margin-top: 19px;
+          margin-left: 30px;
+        }
+
+        &--desc {
+          font-size: 15px;
+          line-height: 15px;
+        }
+
+      }
+
+      &__block2 {
+        &--blocks {
+          &__item {
+            &--title {
+              margin-left: -8px;
+              width: 135px;
+              font-weight: 500;
+              font-size: 11px;
+            }
+
+            &--box {
+              width: 53px;
+              height: 51px;
+            }
+          }
+        }
+
+        margin-left: 3px;
+
+        &--theme {
+          font-size: 19px;
+        }
+      }
+    }
+  }
+
+
+  #slider{
+    .slider{
+      &__max{
+        width: 800px;
+        margin-left: 10px;
+      }
+    }
+  }
+  #reviews{
+    .reviews{
+      &__videos{
+        width: 681px;
+      }
+    }
+  }
+  #end {
+    .end {
+      &__item{
+        padding-left: 644px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: $Tablet) {
+  .container {
+    width: 720px;
+  }
+  #header {
+    .header {
+      height: 2px;
+    }
+  }
+  #program {
+    .slider {
+      width: 768px;
+
+      &__par {
+        width: 160px;
+      }
+
+      &__img1 {
+        width: 176px;
+        height: 100px;
+      }
+
+      &__img2 {
+        width: 176px;
+        height: 100px;
+      }
+
+      &__desc {
+        width: 100px;
+        font-size: 10px;
+
+        &--pro {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+  #meal {
+    .meal {
+
+    }
+  }
+  #hero {
+
+    .hero {
+
+      &__teme{
+        padding-top: 18px;
+      }
+      &__nav {
+        display: none;
+        &--subtitle{
+          font-size: 8px;
+        }
+      }
+
+      &__btn{
+        margin-left: 160px;
+        height: 46px;
+      }
+
+      &__blocks{
+        &--block1{
+          height: 142px;
+        }
+      }
+    }
+  }
+  #home {
+    .home {
+      &__theme{
+        font-size: 24px;
+      }
+      &__blocks{
+        width: 701px;
+        margin-left: -33px;
+        &--img{
+          margin-left: 37px;
+        }
+      }
+    }
+
+
+
+
+  }
+  #prod {
+    .prod {
+      &__buttons{
+        margin-left: 112px;
+
+
+
+      }
+      &__par{
+        width: 554px;
+        line-height: 18px;
+      }
+      &__blocks{
+        margin-left: -124px;
+      }&__blocks-2{
+        margin-left: -124px;
+      }&__blocks-3{
+        margin-left: -124px;
+      }
+    }
+  }
+  #wrap {
+    .wrap {
+      &__theme{
+        width: 469px;
+        margin-left: 111px;
+      }
+      &__block2{
+        width: 700px;
+        height: 300px;
+      }
+    }
+  }
+  #slider {
+    .slider {
+      &__btn{
+        margin-left: 267px;
+      }
+      &__max {
+        width: 699px;
+      }
+    }
+  }
+  #wrapper{
+    .wrapper{
+      &__theme{
+        padding-left: 221px;
+      }
+    }
+  }
+  #reviews{
+    .reviews{
+      &__videos{
+        width: 469px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: $BigPhone) {
+  .container {
+    width: 540px;
+  }
+  #header {
+    .header {
+      &__menu, &__btn {
+        display: none;
+      }
+    }
+  }
+  #program {
+    .program {
+      &__title {
+        font-size: 16px;
+      }
+
+    }
+
+    .slider {
+      width: 540px;
+
+      &__img1 {
+        padding-left: 150px;
+        width: 269px;
+        height: 163px;
+      }
+
+      &__img2 {
+        padding-left: 150px;
+        width: 269px;
+        height: 163px;
+      }
+
+      &__wrap {
+        padding-left: 150px;
+      }
+
+      &__par {
+        padding-left: 150px;
+      }
+
+      &__desc {
+        padding-left: 150px;
+      }
+
+      &__box {
+        padding-left: 150px;
+      }
+    }
+  }
+  #hero {
+    min-height: 629px;
+
+    .hero {
+      &__theme{
+        font-size: 11px;
+      }
+
+      &__btn{
+        margin-left: 65px;
+        height: 28px;
+      }
+      &__blocks{
+        display: grid;
+
+        &--block1{
+          width: 300px;
+        }
+      }
+
+    }
+  }
+  #home {
+    .home{
+      &__blocks{
+        width: 490px;
+        margin-left: -1px
+        &--img{
+
+        }
+      }
+
+      &__join {
+        &--title {
+          font-size: 10px
+        }
+
+        &--subtitle {
+          font-size: 8px;
+        }
+
+        &--btn {
+          padding: 10px
+        }
+      }
+    }
+  }
+  #prod {
+    .prod {
+      &__blocks{
+        margin-top: 30px;
+        margin-left: -371px;
+      }&__blocks-2{
+        margin-left: -371px;
+      }&__blocks-3{
+        margin-left: -371px;
+      }
+      &__par{
+        width: 379px;
+        line-height: 14px;
+      }
+      &__theme{
+        font-size: 29px;
+      }
+      &__buttons{
+
+        &--btn1{
+          width: 111px;
+          height: 34px;
+          font-size: 12px;
+        }&--btn2{
+          width: 111px;
+          height: 34px;
+                   font-size: 12px;
+        }&--btn3{
+          width: 111px;
+          height: 34px;
+        font-size: 12px;
+        }
+
+
+      }
+    }
+
+
+  }
+  #wrap{
+    .wrap {
+      &__theme{
+        width: 428px;
+        margin-left: 55px;
+      }
+      &__block {
+        &--img {
+          height: 400px;
+        }
+        &--desc{
+          height: 400px;
+        }
+
+      }
+      &__block2{
+        width: 360px;
+        height: 723px;
+        margin-left: 98px;
+        &--blocks{
+          display: grid;
+        }
+      }
+    }
+  }
+  #slider {
+    .slider {
+      &__max{
+        width: 495px;
+      }
+      &__btn{
+        margin-left: 187px;
+      }
+
+    }
+
+
+  }
+  #wat {
+    .wat {
+      &__theme {
+        font-size: 29px;
+      }
+      &__item{
+        &--title{
+          width: 300px;
+        }
+        &--subtitle{
+          width: 298px;
+          padding-bottom: 141px;
+        }
+        &--btn{
+
+          width: 300px;
+        }
+      }
+    }
+
+
+
+  }
+  #reviews{
+    .reviews{
+      &__videos{
+        display: grid;
+        align-items: center;
+
+        margin-left: 30px;
+      }
+    }
+  }
+  #wrapper{
+    .wrapper{
+      &__subtitle{
+        display: grid;
+        flex-direction: column;
+        padding: 5px 10px;
+
+        justify-content: space-around;
+      }
+      &__title{
+        display: grid;
+      }
+      &__theme{
+        padding-left: 141px;
+      }
+    }
+  }
+  #end{
+    .end{
+      &__img{
+        padding-left: 10px;
+        width: 150px;
+      }
+      &__nav{
+        padding-left: 227px;
+      }&__item{
+        padding-left: 400px;
+      }
+    }
+  }
+
+}
+
+@media (max-width: $iphone7) {
+  .container {
+    width: 380px;
+  }
+  #header {
+    .header {
+      &__nav {
+        display: none;
+      }
+    }
+  }
+  #hero {
+
+
+    .hero {
+
+      &__btn {
+        margin-left: 42px;
+        height: 30px;
+        width: 300px;
+      }
+
+      &__blocks {
+        &--block1 {
+          padding-top: -600px;
+        }
+      }
+    }
+  }
+  #home {
+    .home {
+
+
+      &__blocks {
+        width: 255px;
+        margin-left: 65px;
+      }
+    }
+  }
+  #prod {
+    .prod {
+      &__buttons {
+        margin-left: 14px;
+      }
+
+      &__par {
+        width: 220px;
+        line-height: 14px;
+        padding-left: 0;
+        padding-bottom: 150px;
+      }
+
+      &__blocks {
+        &--block {
+          margin: 8px 55px;
+
+        }
+
+        &--block-2 {
+          margin: 8px 55px;
+
+
+        }
+
+        &--block-3 {
+          margin: 8px 55px;
+        }
+      }
+
+
+    }
+
+
+  }
+
+  #become {
+    .container {
+      width: 380px;
+    }
+
+    .become {
+      &__join {
+
+
+        &--theme {
+          font-size: 20px;
+          width: 260px;
+          text-align: center;
+        }
+
+        &--btn {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center;
+        }
+
+
+      }
+
+      &__img {
+        padding-left: 18px;
+        margin-top: 10px;
+      }
+
+
+    }
+
+
+  }
+  #about {
+    .container {
+      text-align: center;
+      margin-top: 1800px;
+    }
+  }
+  #pricing {
+    .container {
+      width: 415px;
+    }
+
+    .pricing {
+      &__theme {
+        padding-top: 41px;
+        font-size: 17px;
+      }
+
+      &__title {
+        display: grid;
+        width: auto;
+        font-size: 13px;
+      }
+
+      &__chose {
+        display: grid;
+        justify-content: space-around;
+
+        &--basic {
+          width: 240px;
+          height: 540px;
+
+          &__title {
+            margin-left: 56px;
+            font-size: 15px;
+            margin-top: 28px;
+          }
+        }
+
+        &--stan {
+          width: 240px;
+        }
+
+        &--prem {
+          width: 240px;
+        }
+      }
+    }
+  }
+  #stay {
+
+    .stay {
+      display: block;
+    }
+
+    .container {
+      &__hr {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: $iphone11) {
+  .container {
+    width: 350px;
+  }
+  #header {
+    .header {
+      &__menu, &__btn {
+        display: none;
+      }
+    }
+  }
+  #hero {
+    min-height: 80vh;
+
+    &__title {
+      font-size: 27px;
+    }
+
+    .hero {
+
+      &__title {
+        font-size: 36px;
+        line-height: 127%;
+      }
+
+      &__video {
+        width: 385px;
+        height: 250px;
+
+        &--btn {
+          width: 65px;
+          height: 65px;
+
+          &__play {
+            margin: 15px auto;
+            width: 25px;
+            height: 25px;
+          }
+
+        }
+
+      }
+    }
+  }
+}

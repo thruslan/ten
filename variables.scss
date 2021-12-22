@@ -1,0 +1,119 @@
+$ff:"Poppins", sans-serif;
+
+$ultraBook:1024px;
+$Ipad:992px;
+$IpadMini:840px;
+$Tablet:769px;
+$BigPhone:540px;
+$iphone7:415px;
+$iphone11:375px;
+$iphone5:320px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%menu{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* White Base */
+
+  color: #FFFFFF;
+}
+%menu:hover{
+color: #053ffa;
+  background: #abfc04;
+  box-shadow: 0 0 10px #abfc04, 0 0 40px #abfc04, 0 0 80px #abfc04;
+  padding: 8px 20px;
+  border-radius: 20px;
+  transition: 0.5s;
+
+}
+%btn{
+  width: 157px;
+  height: 43px;
+  left: 568px;
+  top: 3.5px;
+
+  /* Primary 1 bright */
+
+  background: #8DB932;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+  border: none;
+
+}
+%btn:hover{
+  transform: translate(0, -10px);
+  transition: 0.5s;
+  box-shadow: 0 0 10px #abfc04, 0 0 40px #abfc04, 0 0 80px #abfc04;
+  background: #FFFFFF;
+  color: #8DB932;
+}
+%btn2{
+  width: 148px;
+  height: 35px;
+  left: 0;
+  top: 0;
+
+  background: #FFFFFF;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Primary 1 */
+
+  color: #769D25;
+  border: none;
+
+
+}
+%btn2:hover{
+  transform: translate(0, -10px);
+  transition: 0.5s;
+  box-shadow: 0 0 10px #abfc04, 0 0 40px #abfc04, 0 0 80px #abfc04;
+  background: #abfc04;
+  color: #FFFFFF;
+}
+%btn3:hover{
+  background: #abfc04;
+  transition: 0.5s;
+  color: #F2F9FD;
+}
+%block:hover{
+   transform: scale(1.5);
+   transition: 0.5s;
+  background: #abfc04;
+  color: #F2F9FD;
+}
+%slider {
+  perspective-origin: center;
+  perspective: 200px;
+
+
+}
